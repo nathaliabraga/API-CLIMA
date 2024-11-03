@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimaSprint2", "ClimaSprint2\ClimaSprint2.csproj", "{14760E93-E8E4-4FCD-93F5-DF4BBF609838}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{EBD762BD-47B3-4027-9D6E-CAEF8B948F57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dtos", "Dtos", "{4A1ED5E5-6759-4FCC-BC27-BCA401901C9E}"
+	ProjectSection(SolutionItems) = preProject
+		PrevisaoClimaDto.cs = PrevisaoClimaDto.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BB161C36-4F15-4DA8-8D2F-43B7255B735A}"
+	ProjectSection(SolutionItems) = preProject
+		PrevisaoClimaApplicationService.cs = PrevisaoClimaApplicationService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{36243292-D76D-458F-AB91-FE6618BFBB2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{FE1A49EB-3679-44C7-AB39-C229FF543240}"
+	ProjectSection(SolutionItems) = preProject
+		PrevisaoClimaEntity.cs = PrevisaoClimaEntity.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{3328A36D-080C-4CFD-ACAF-94D391C113A5}"
+	ProjectSection(SolutionItems) = preProject
+		IClimaApplicationService.cs = IClimaApplicationService.cs
+		IClimaService.cs = IClimaService.cs
+		IPrevisaoClimaRepository.cs = IPrevisaoClimaRepository.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dtos", "Dtos", "{D25C10CE-90AD-4B53-8DBD-B7FA6E1E50E4}"
+	ProjectSection(SolutionItems) = preProject
+		IClimaDto.cs = IClimaDto.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9025AD18-F2A5-4425-9CBC-0E8EE0DB65D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppData", "AppData", "{C4584027-75B0-4F16-9D11-33B4B80C9853}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationContext.cs = ApplicationContext.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{60DB8A63-B951-4177-9ACA-6031C3BD3895}"
+	ProjectSection(SolutionItems) = preProject
+		Bootstrap.cs = Bootstrap.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{08DA41FE-A8D4-4B11-8E29-BFD6C1D99DDE}"
+	ProjectSection(SolutionItems) = preProject
+		ClimaRepository.cs = ClimaRepository.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E8A7C4EA-6013-4FF6-AEAE-3E8BCB077B6C}"
+	ProjectSection(SolutionItems) = preProject
+		ClimaService.cs = ClimaService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{76C9479C-5CFC-4158-B725-38EFBE6946B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{695A3B19-4A51-4D34-B54E-EAF59D04F246}"
+	ProjectSection(SolutionItems) = preProject
+		ClimaController.cs = ClimaController.cs
+		PrevisaoChuvaController.cs = PrevisaoChuvaController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7AAE7146-1215-4ADB-9FAC-CF14CB0421A1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\PrevisaoChuva.csv = ..\..\..\Documents\PrevisaoChuva.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{57FE269E-6473-4E1A-B773-730873BC3263}"
+	ProjectSection(SolutionItems) = preProject
+		ClimaRepositoryTest.cs = ClimaRepositoryTest.cs
+		ClimaSprintTest.cs = ClimaSprintTest.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14760E93-E8E4-4FCD-93F5-DF4BBF609838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14760E93-E8E4-4FCD-93F5-DF4BBF609838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14760E93-E8E4-4FCD-93F5-DF4BBF609838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14760E93-E8E4-4FCD-93F5-DF4BBF609838}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A1ED5E5-6759-4FCC-BC27-BCA401901C9E} = {EBD762BD-47B3-4027-9D6E-CAEF8B948F57}
+		{BB161C36-4F15-4DA8-8D2F-43B7255B735A} = {EBD762BD-47B3-4027-9D6E-CAEF8B948F57}
+		{FE1A49EB-3679-44C7-AB39-C229FF543240} = {36243292-D76D-458F-AB91-FE6618BFBB2E}
+		{3328A36D-080C-4CFD-ACAF-94D391C113A5} = {36243292-D76D-458F-AB91-FE6618BFBB2E}
+		{D25C10CE-90AD-4B53-8DBD-B7FA6E1E50E4} = {3328A36D-080C-4CFD-ACAF-94D391C113A5}
+		{C4584027-75B0-4F16-9D11-33B4B80C9853} = {9025AD18-F2A5-4425-9CBC-0E8EE0DB65D2}
+		{60DB8A63-B951-4177-9ACA-6031C3BD3895} = {9025AD18-F2A5-4425-9CBC-0E8EE0DB65D2}
+		{08DA41FE-A8D4-4B11-8E29-BFD6C1D99DDE} = {9025AD18-F2A5-4425-9CBC-0E8EE0DB65D2}
+		{E8A7C4EA-6013-4FF6-AEAE-3E8BCB077B6C} = {9025AD18-F2A5-4425-9CBC-0E8EE0DB65D2}
+		{695A3B19-4A51-4D34-B54E-EAF59D04F246} = {76C9479C-5CFC-4158-B725-38EFBE6946B1}
+		{7AAE7146-1215-4ADB-9FAC-CF14CB0421A1} = {76C9479C-5CFC-4158-B725-38EFBE6946B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2BD4DFB-A1CE-4F27-9D88-1CAAB0DB61C6}
+	EndGlobalSection
+EndGlobal
